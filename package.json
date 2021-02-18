@@ -1,0 +1,18 @@
+{
+  "name": "simple-dom-diff",
+  "version": "1.0.0",
+  "description": "简单的虚拟dom实现",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "git": "git pull && git add . && git commit -m ",
+    "postigt": "git push",
+    "build": "rollup lib/index.js -o dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.39.0"
+  }
+}
